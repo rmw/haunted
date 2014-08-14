@@ -1,0 +1,4 @@
+haunted
+=======
+
+A sandbox.
