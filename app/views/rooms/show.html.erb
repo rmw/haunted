@@ -1,0 +1,28 @@
+<script>
+// vex.dialog.alert('Send your friend this url to play!<br><input id="game-url" type="text" placeholder="<%=request.original_url%>"></input>');
+</script>
+
+<input type="hidden" id="room-session" value="<%= @room_session %>">
+
+<div id="chat-widget">
+  <div id="panel">
+    <button id="instructions-button">Instructions</button>
+
+    <script>
+      $("#instructions-button").click(function(){
+        vex.dialog.alert('Game instructions go here.');
+      });
+    </script>
+
+    <button id="dashboard-button">Dashboard</button>
+  </div>
+
+  <h3>Chat</h3>
+  <div id="msg-output"></div>
+
+  <form id="chat-form">
+    <input type="text" id="user-name"></input><br>
+    <input type="text" id="msg-input" placeholder="Message"></input>
+    <input type="submit" id="send" value="send"></input>
+  </form>
+</div>
