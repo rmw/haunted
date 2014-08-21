@@ -96,7 +96,7 @@ features.pointer = function(direction) {
         return true;
       }
     } else if (direction === "right") {
-      if (game.input.activePointer.x > 400) {
+      if (game.input.activePointer.x > 600) {
         return true;
       }
     }
