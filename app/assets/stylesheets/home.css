@@ -1,11 +1,10 @@
 #welcome {
   margin: auto;
-  width: 400px;
+  width: 450px;
   font-size: 1.1em;
   font-style: bold;
   padding-top: 10px;
   text-shadow: 2px 2px 2px indigo;
-  margin-top: 450px;
 }
 
 #welcome a:link, a:visited {
@@ -14,27 +13,24 @@
   text-shadow: 2px 2px 2px indigo;
 }
 
-#welcome form {
+#welcome {
+  margin-top: 28git%;
   text-align: center;
-  line-height: 50px;
-}
-
-#welcome input {
   font-family: 'Avenir';
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 30px;
   width: 50%;
 }
 
-#welcome .button, input[type=submit] {
-  margin-bottom: 30px;
-  width: 30%;
+#welcome .button {
   color: white;
-  padding: 7px;
   border: 1px solid;
   font-family: 'Avenir';
+  letter-spacing: 2px;
   line-height: 20px;
-  font-size: 1em;
+  padding: 15px;
+  margin: 50px;
+  font-size: 1.2em;
   background-color: indigo;
 }
 
