@@ -34,7 +34,7 @@ modals.confirmP1 = function(roomSession) {
 
  modals.confirmP2 = function() {
   vex.dialog.alert({
-    message: "You've been invited to play Haunted! You are playing Ghost.",
+    message: "You've been invited to play Haunted!<br><br>You are playing Ghost.",
     callback: function(value) {
       if (value) {
         currentPlayer = "player2";
