@@ -32,6 +32,7 @@ canvas {
 }
 
 /* Sidebar */
+
 h2 {
   color: white;
   font-family: 'Iceland';
@@ -40,7 +41,7 @@ h2 {
   letter-spacing: 5px;
   text-align: center;
   text-shadow: 4px 4px purple;
-  margin-top: 35px;
+  margin-top: 10%;
 }
 
 h2:hover {
@@ -66,6 +67,7 @@ h3 {
 }
 
 #panel {
+  margin-top: -50px;
   text-align: center;
 }
 
@@ -133,12 +135,14 @@ h3 {
 }
 
 #send {
+  border: 2px solid white;
+  background-color: indigo;
+  color: white;
   width: 60px;
   text-align: center;
-  letter-spacing: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 5px;
   font-family: 'Avenir';
+  margin-bottom: 30px;
 }
 
 }
