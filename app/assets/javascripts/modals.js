@@ -6,7 +6,7 @@ modals.confirmP1 = function(roomSession) {
   fb.player1.set(true);
   
   vex.dialog.alert({
-    message:'Send your friend this url to play!<br><input id="game-url" type="text" value="http://haunted-game.herokuapp.com/' + roomSession + '"><br>You are playing Hero.<br>',
+    message:'Send your friend this url to play!<br><input id="game-url" type="text" value="http://haunted-game.herokuapp.com/' + roomSession + '"><br>You are playing multiplayer <b>PacMan</b>.<br>The game will not begin until your friend has joined the room.<br>You can press <b>R</b> if you are impatient.<br>',
     callback: function(value) {
       if (value) {
         fb.pause.set(true);
