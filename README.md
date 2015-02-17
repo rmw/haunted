@@ -19,10 +19,10 @@ Haunted
 
 ## Daily Blog
 
-  * [Day 1](http://juliusjung.info/blog/2014/08/14/haunted-day-1/)
-  * [Day 2](http://juliusjung.info/blog/2014/08/14/haunted-day-2/)
-  * [Day 3](http://juliusjung.info/blog/2014/08/15/haunted-day-3/)
-  * [Day 4](http://juliusjung.info/blog/2014/08/16/haunted-day-4/)
-  * [Day 5](http://juliusjung.info/blog/2014/08/17/haunted-day-5/)
-  * [Day 6](http://juliusjung.info/blog/2014/08/19/haunted-day-6/)
-  * [Day 7](http://juliusjung.info/blog/2014/08/20/haunted-day-7/)
+  * [Day 1](http://juliusjung.info/2014/08/14/haunted-day-1/)
+  * [Day 2](http://juliusjung.info/2014/08/14/haunted-day-2/)
+  * [Day 3](http://juliusjung.info/2014/08/15/haunted-day-3/)
+  * [Day 4](http://juliusjung.info/2014/08/16/haunted-day-4/)
+  * [Day 5](http://juliusjung.info/2014/08/17/haunted-day-5/)
+  * [Day 6](http://juliusjung.info/2014/08/19/haunted-day-6/)
+  * [Day 7](http://juliusjung.info/2014/08/20/haunted-day-7/)
