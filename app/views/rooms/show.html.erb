@@ -1,0 +1,22 @@
+<input type="hidden" id="room-session" value="<%= @room_session %>">
+
+<div id="chat-widget" class="desktop-only">
+  <h2><a href="http://haunted-game.herokuapp.com/">Haunted</a></h2>
+  <div id="panel">
+    <img src="/sidebarghost.png"><br>
+    <button id="instructions-button">Instructions</button>
+    <button id="aboutus-button">About Us</button>
+  </div>
+
+  <div id="chat">
+  <h3>Chat</h3>
+  <div id="msg-output"></div>
+    <form id="chat-form">
+      <input type="text" id="user-name" value="Anonymous"></input>
+      <input type="text" id="msg-input" placeholder="Message" required></input>
+      <input type="submit" id="send" value="Send"></input>
+    </form>
+  </div>
+</div>
+
+<%= javascript_include_tag "main.js" %>

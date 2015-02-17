@@ -2,13 +2,23 @@
 <html>
 <head>
   <title>Haunted</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <%= stylesheet_link_tag 'application', 'vex', 'vex-theme-wireframe', media: '(min-width: 900px)', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', 'vex', 'vex-theme-wireframe', media: '(max-width: 900px)', 'data-turbolinks-track' => true %>
+
+  <script language="JavaScript" type = "text/Javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/1.0.19/firebase.js"></script>
+
+  <%= javascript_include_tag ('application'), 'data-turbolinks-track' => true %>
+
+  <script>vex.defaultOptions.className = 'vex-theme-wireframe';</script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+  <div id="container">
+    <%= yield %>
+  </div id="container">
 
 </body>
 </html>
